@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Gioco 4x4 - Trova i Gruppi - GIOCO #8 </title>
+  <title>Gioco 4x4 - Trova i Gruppi</title>
   <style>
     :root{ --gap:10px; --size:70vmin; }
     body{font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;display:flex;flex-direction:column;align-items:center;gap:18px;padding:24px;background:linear-gradient(180deg,#f7fbff,#eef6ff);min-height:100vh;color:#0b2540}
@@ -36,7 +36,7 @@
   <div class="hud">
     <div id="timer" style="font-size:16px;font-weight:700;color:#0b2540">Tempo: 00:00</div>
     <div class="info">
-      <div class="message" id="message">Seleziona 4 parole per formare un gruppo - GIOCO #8 </div>
+      <div class="message" id="message">Seleziona 4 parole per formare un gruppo.</div>
       <div class="attempts" id="attempts">Tentativi rimasti: 4</div>
     </div>
     <div class="controls">
@@ -47,7 +47,7 @@
 
   <div class="board" id="board"></div>
 
-  <footer>Regole: Seleziona 4 caselle. Se formano uno dei gruppi nascosti verranno colorate e disabilitate.</footer>
+  <footer>Regole: Seleziona 4 caselle. Se formano uno dei gruppi nascosti verranno colorate e disabilitate. Se sbagli mostra "RIPROVA". Hai 4 errori. Se trovi tutti i gruppi appare "BRAVO", altrimenti quando i tentativi finiscono appare "PECCATO".</footer>
   <div id="explanations" style="margin-top:18px;font-weight:600;font-size:15px;color:#0b2540"></div>
 
   <!-- End screen overlay (mostrato a fine partita) -->
@@ -303,5 +303,3 @@
 </script>
 </body>
 </html>
-
-
